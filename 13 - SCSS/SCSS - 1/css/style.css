@@ -1,0 +1,44 @@
+.main-title {
+  color: red;
+}
+.main-subtitle {
+  color: blue;
+}
+.main-btn {
+  color: orange;
+}
+.main-btn:hover {
+  background-color: green;
+  font-weight: bolder;
+  color: yellow;
+}
+
+.content .font-18px {
+  font-size: 18px;
+}
+.content .font-16px {
+  font-size: 16px;
+}
+.content .font-14px {
+  font-size: 14px;
+}
+.content .font-40px {
+  font-size: 40px;
+}
+.content .font-50px {
+  font-size: 50px;
+}
+
+@media (min-width: 320px) {
+  .finish-btn1 {
+    width: 49%;
+  }
+}
+
+@media (min-width: 600px) {
+  .finish-btn2 {
+    width: 49%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

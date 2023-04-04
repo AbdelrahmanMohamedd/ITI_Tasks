@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  color: whitesmoke;
+  background-color: rgb(13, 14, 44);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.main {
+  padding: 30px;
+  line-height: 2;
+  transition: all 0.4s linear;
+}
+.main .firstline, .main .secondline {
+  color: orange;
+  text-transform: uppercase;
+}
+.main .secondline {
+  color: yellow;
+}
+.main .Form-container .labls {
+  font-size: x-large;
+  color: rgb(132, 144, 153);
+}
+.main .Form-container .box {
+  background: rgb(89, 89, 110);
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: larger;
+  outline: none;
+  border-radius: 15px;
+  border: solid 1px rgb(0, 255, 221);
+}
+.main .finishbtn {
+  margin-top: 50px;
+  background-color: rgb(10, 28, 107);
+  color: rgb(180, 187, 190);
+  font-weight: bolder;
+  border: solid rgb(0, 247, 255) 1px;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 25px;
+  overflow: hidden;
+}
+.main .finishbtn:hover {
+  background-color: rgb(0, 92, 179);
+  color: aliceblue;
+  box-shadow: 0 0 20px 10px hsla(204deg, 70%, 53%, 0.5);
+}
+
+@media screen and (max-width: 1200px) {
+  form {
+    font-size: 12pt;
+    text-align: left;
+    padding: 20px;
+    width: 50%;
+    border-radius: 25px;
+    background-color: hsla(241deg, 92%, 20%, 0.5);
+    transition: all 0.5s linear;
+    box-shadow: 0 0 20px 10px hsla(234deg, 100%, 43%, 0.5);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

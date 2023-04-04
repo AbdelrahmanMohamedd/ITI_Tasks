@@ -1,0 +1,38 @@
+@import "./color";
+///////////////////////////////////////
+.main{
+    &-title{
+        color:red;
+    }
+    &-subtitle{
+        color:blue;
+    }
+    &-btn{
+            color:$primary-color;
+        &:hover{
+            background-color: green;
+            font-weight: bolder;
+            color: $secondary-color;
+        }
+    }
+}
+///////////////////////////////////////
+.content{
+    $fonts: 18px, 16px , 14px, 40px, 50px;
+    @each $fnt in $fonts{
+    .font-#{$fnt}{
+        font-size: $fnt;
+        }
+    }
+}
+///////////////////////////////////////
+.finish-btn1{
+    @media (min-width:320px){
+        width: 49%;
+    } 
+}
+.finish-btn2{ 
+    @media (min-width:600px){
+        width: 49%;
+    }
+}
