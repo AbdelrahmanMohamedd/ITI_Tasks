@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/JqueryDev.js"> </script>
+    <script src="js/script.js">    </script>
+    <title>JQuery D1 Task1</title>
+</head>
+<body style="background-color: rgb(250, 198, 236); ">
+                            <!-- Buttons -->
+        <table class="buttonTableCont">
+            <tr>
+                <td>
+                    <input class="pinkButns" type="button" value="About"    id="AboutBTN" >
+                </td>
+                <td>
+                    <input class="pinkButns" type="button" value="Gallary"  id="GallaryBTN" >
+                </td>
+                <td>
+                <input class="pinkButns" type="button" value="Services" id="ServicesBTN" >
+                    <input class="toggled" type="button" value="Service 1"  >
+                    <input class="toggled" type="button" value="Service 2"  >   
+                    <input class="toggled" type="button" value="Service 3"  >
+                </td>
+                <td>
+                    <input class="pinkButns" type="button" value="Complain" id="ComplainBTN" > 
+                </td>
+            </tr>
+        </table>
+                            <!-- About -->
+    <div class="aboutdiv" id="DisplayDiv">
+        <h2 style="padding:50px;"> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eaque tempora sit quibusdam accusantium ad, sapiente
+            consequuntur obcaecati iusto rem eos nemo inventore distinctio debitis sunt? Neque cupiditate ab explicabo!
+        </h2>     
+    </div>
+                            <!-- Gallary -->
+    <div class="gallarydiv"  id="GallaryDIV">
+        <div style="padding:50px;">
+            <input type="image" src="imgs/left.png"  name="Left"  width="75" height="75" class="" id="Leftimg"  />
+            <img src="imgs/1.jpg" width="250" height="250" id="View">
+            <input type="image" src="imgs/right.png" name="Right" width="75" height="75" class="" id="Rightimg" />
+        </div>
+    </div>
+                            <!-- Service -->
+    <!-- <div class="servicesdiv">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div> -->
+                    <!-- Complain -->
+    <div class="complaindiv"  id="ComplainDIV" >
+        <!-- <form id="myform"><br><br> -->
+            <label>Name:</label>    
+                <input class="complaininputs" type="text" placeholder="Your Name..."     id="NmInpt" >   <br>
+            <label>Email:</label>   
+                <input class="complaininputs" type="text" placeholder="Your Email..."    id="EmailInpt" ><br>
+            <label>Phone:</label>   
+                <input class="complaininputs" type="text" placeholder="Your Phone..."    id="PhnInpt" >  <br>
+            <label>Complain:</label>
+                <input class="complaininputs" type="text" placeholder="Your Complain..." id="CompInpt" > <br><br>
+            <input class="pinkButns" type="button" value="Submit"  id="ComplainSubmit">
+        <!-- </form> -->
+    </div>  
+
+    <div class="complaindiv" id="ComplainDIVresult"><br><br><br><br>
+        <div id="ComplainDIVresultdata">
+        </div>
+        <br><br><br><br>
+        <input class="pinkButns" type="button" value="Back To Edit"  id="ComplainBACK">
+    </div>
+
+</body>
+</html>

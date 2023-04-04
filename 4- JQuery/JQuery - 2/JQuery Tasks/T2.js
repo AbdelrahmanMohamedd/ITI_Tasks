@@ -1,0 +1,9 @@
+$(function(){
+    
+    
+    $('#imageZoom').magnify(); 
+
+
+s
+
+});
