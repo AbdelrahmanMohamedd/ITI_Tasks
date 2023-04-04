@@ -1,0 +1,91 @@
+.myNav,.footer{
+    width: 100%;
+    background-color:grey; 
+}
+
+.footer{
+    margin-top: auto;
+    text-align: center;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.NavLinks{
+    font-weight: bold;
+    color: black;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+ul {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline-block
+}
+
+
+.Container{
+    padding: 30px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Divs{
+    text-align:  center;
+    width: 30vw; 
+    float: left;
+    border-style: solid;
+}
+
+@media screen and (max-width:800px){
+    .Container{
+      
+        flex-wrap: wrap;
+        
+        
+        
+    }
+    
+}
+
+
+
+/* /////////////////  T2 ///////////////// */
+.outer{
+    border-style: solid;
+    border-color: black;
+    width:70vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    border-style: solid;
+    border-color: orange;
+    width: 20vw;
+    height: 10vh;
+}
