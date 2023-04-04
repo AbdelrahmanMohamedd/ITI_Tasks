@@ -1,0 +1,26 @@
+<div class="Table">
+    <h1>Students Table</h1>
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Age</td>
+            </tr>
+        </thead>
+        <tbody> 
+            <tr *ngFor="let student of DataToStudTables">
+                <th>{{student.name}}</th>
+                <th>{{student.age}}</th>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+
+
+
+<p>student-table works!</p>

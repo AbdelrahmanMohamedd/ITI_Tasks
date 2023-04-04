@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background: #76b852;
+}
+
+
+
+.greenPhoto{
+    width: 10%;
+    float: left;
+    padding-top: 200px;
+    padding-left: 200px;
+}

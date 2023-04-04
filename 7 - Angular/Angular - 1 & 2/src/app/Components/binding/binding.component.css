@@ -1,0 +1,22 @@
+#inpt{
+    height: 250px;
+    width: 500px;
+    margin: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.btn {
+    background-color: #015d04; 
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.btn:hover {
+    background-color: #3e8e41;
+    color: white;
+}

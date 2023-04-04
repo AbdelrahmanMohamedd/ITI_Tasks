@@ -1,0 +1,8 @@
+
+<div style="text-align: center;">
+    <textarea  type="text"  placeholder="Enter Your Message" [value]="Message" (input)="CpyMsg($event)" id="inpt"></textarea> 
+    <br>
+    <h2 class="viewer">{{Message|custom}}</h2>
+    <br>
+    <input  type="button" value="RESET" class="btn" (click)="Reset()" >
+</div>

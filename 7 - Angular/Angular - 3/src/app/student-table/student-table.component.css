@@ -1,0 +1,32 @@
+.Table{
+    border-radius: 10px ;
+    border-color: brown;
+    border-width: 3px;
+    border-style: dashed;
+    margin: 10px auto;
+    padding: 5px;
+    width: 50%;
+    text-align: center;
+}
+
+h1{
+    padding: 10px;
+    margin: auto;
+}
+
+
+
+table{ 
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+}
+
+td,th{
+    border: 2px solid rgb(13, 111, 203);
+    width: 70%;
+}
+
+td{
+    background-color: gray;
+}

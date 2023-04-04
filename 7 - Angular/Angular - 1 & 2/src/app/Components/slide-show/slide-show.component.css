@@ -1,0 +1,20 @@
+.button {
+    background-color: #226124; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+}
+
+
+.button:hover {
+    background-color: #61c664;
+    color: white;
+}
+
+
+.viewer{
+    size: 35px;
+}

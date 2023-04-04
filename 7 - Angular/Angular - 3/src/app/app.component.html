@@ -1,0 +1,9 @@
+<!-- day 3 -->
+
+<div>
+    <app-student-form  (gotoParentEvent)= "getData($event)" ></app-student-form>
+</div>
+
+<div>
+    <app-student-table  [DataToStudTables]="DatafromStudForms" ></app-student-table>
+</div>

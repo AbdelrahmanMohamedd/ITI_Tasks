@@ -1,0 +1,34 @@
+
+<div class=" container mt-5 w-75 table table-bordered  text-center alert alert-primary ">
+    <div class="col">
+        <div class="row">
+            <h3   class="alert alert-danger"   >Hello, this is Students List</h3>
+            <table class="table table-info ">
+                <thead >
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>City</th>
+                        <th>User Details</th>
+                        <th>User Update</th>
+                        <th>Deletion</th>
+                    </tr>
+                </thead>
+                <tbody *ngFor="let s of students">
+                    <tr>
+                        <td>{{s.id}}</td>
+                        <td>{{s.name}}</td>
+                        <td>{{s.email}}</td>
+                        <td>{{s.city}}</td> 
+                        <td><a routerLink="/students/{{s.id}}">Details</a> </td>
+                        <td><a routerLink="/students/update/{{s.id}}">Update</a> </td>
+                        <td><button type="button" class="btn btn-secondary" (click)="DeleteStudent(s.id)">Delete</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+

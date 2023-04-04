@@ -1,0 +1,29 @@
+<div class="form">
+    <h2>Student Form</h2>
+    <div class="form">
+        <label > Name </label>
+        <input placeholder="Enter Student Name ..."  type="text" [(ngModel)]="name" pattern="[A-Za-z]{3,20}" required>
+        <label > Age </label>
+        <input placeholder="Enter Student Age ..." type="text" [(ngModel)]="age"  pattern="[1-9]{2}" required>
+
+        <div class="warn"  *ngIf="(!ageTrue) && age  ; else equal20Block ">
+            <p> 20 < age < 30</p>
+        </div>
+        <ng-template #equal20Block >
+            <div class="warn" *ngIf="(age>30 || age<20) " >
+                Age must be between 20 >> 30 years
+            </div>
+        </ng-template>
+
+        <div style="color: green; font-weight: bolder;" *ngIf="age>=20 && age<=30 && age">
+            Age accepted
+        </div>
+
+        <input type="button" value="ADD" (click)="Fire_Add()">
+    </div>
+</div>
+
+
+
+
+<p>student-form works!</p>

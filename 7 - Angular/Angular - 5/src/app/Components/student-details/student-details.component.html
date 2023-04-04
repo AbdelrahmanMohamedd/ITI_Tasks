@@ -1,0 +1,17 @@
+<p>student-details works!</p>
+
+<div class="container alert alert-primary w-25 mt-5">
+    <div class="col"   *ngIf="student_catched ; else falseBlock "> 
+        <h3 class=" alert alert-danger ">Student (( {{student_catched.id}} )) Details...</h3>
+            <h4 >ID:  {{student_catched.id}} </h4>
+            <h4 >Name:  {{student_catched.name}}</h4>
+            <h4 >Email:  {{student_catched.email}} </h4>
+            <h4 >City:  {{student_catched.city}} </h4> 
+    </div>
+</div>
+
+<ng-template  #falseBlock >
+    <div class="container alert alert-primary mt-5">
+        <h3 class=" alert alert-warning ">Loading</h3>
+    </div>
+</ng-template>
