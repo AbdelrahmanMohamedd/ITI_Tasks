@@ -1,0 +1,23 @@
+#users {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  #users td, #users th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #003cff;
+    color: white;
+  }
+  .imgIcons{
+    width:25px;
+  }
+  

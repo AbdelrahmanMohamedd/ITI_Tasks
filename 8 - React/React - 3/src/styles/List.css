@@ -1,0 +1,16 @@
+#students { 
+  border-collapse: collapse;
+  width: 40%;
+  margin: 0 auto;
+}
+
+#students th {   
+  background-color: #042f70; 
+}
+
+#students td, #students th {
+  border: 2px solid #ddd;
+  padding: 5px;
+}
+
+

@@ -1,0 +1,29 @@
+.formm{ 
+	max-width: 300px;
+	margin: 90px auto;
+	padding: 25px;
+	background: #6588c9;
+}
+
+.formm input[type="text"],
+.formm input[type="email"],
+.formm input[type="number"]{ 
+	margin-bottom: 10px; 
+	width: 100%;
+	background: #fff;
+	padding: 10px; 
+	box-sizing: border-box; 
+} 
+
+
+.formm input[type="submit"]{
+	margin-top: 30px; 
+	width: 100%;
+	padding: 15px;
+	background: #043370; 
+	color: #fff;
+}
+
+.formm input[type="submit"]:hover{
+	background: #2e4fbc;
+}

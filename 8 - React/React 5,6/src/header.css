@@ -1,0 +1,23 @@
+
+li a {
+  display: block;
+  color:black;
+  text-align: center;
+  font-size: x-large;
+  padding: 20px 150px;
+  text-decoration: none; 
+}
+
+li a:hover {
+  background-color: #042f5f;
+}
+
+ul {
+  font-size: larger;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  list-style-type: none; 
+  background-color: #004196;
+  }
+  

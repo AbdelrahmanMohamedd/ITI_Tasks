@@ -1,0 +1,40 @@
+{
+  "jsonarray": [
+    {
+      "name": "medo",
+      "age": "22",
+      "email": "medo@yahoo.com",
+      "id": 1
+    },
+    {
+      "name": "sayed",
+      "age": "32",
+      "email": "sayed@yahoo.com",
+      "id": 1
+    },
+    {
+      "name": "fady",
+      "age": "21",
+      "email": "fady@yahoo.com",
+      "id": 1
+    },
+    {
+      "name": "hady",
+      "age": "34",
+      "email": "hady@yahoo.com",
+      "id": 1
+    },
+    {
+      "name": "samy",
+      "age": "11",
+      "email": "samy@yahoo.com",
+      "id": 1
+    },
+    {
+      "name": "body",
+      "age": "21",
+      "email": "body@yahoo.com",
+      "id": 1
+    }
+  ]
+}
