@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>This is JS Lab1 Task </title>
+	<script> 
+//Task1
+	alert("Task1");
+	console.log("Welcome to my site");
+	let username = prompt("What is your name?");
+	alert("Hello " + username + "! Welcome to my page!");
+
+//Task2
+	alert("Task2");
+	alert("Lets Play some Games..."); 
+	alert("First one,please enter two intger numbers");
+	let x = prompt("Enter the First Number (X) :");
+	let y = prompt("Enter the Second Number (Y) :");
+	let z = y**x;
+	alert("Look! This is the result of raising X as a power of Y >>  " + z);
+	alert("Thanks, lets show what is next! ");
+
+
+//Task3
+	alert("Task3");
+	let a,b,c;
+	alert("I need 3 number to solve this Equation [ (A)X^2+(B)X+C=0 ]");
+	a=prompt("Enter the first number: ");
+	b=prompt("Enter the first number: ");
+	c=prompt("Enter the first number: ");
+ 	var root = Math.sqrt( (b * b) - (4 * a * c) );
+	var dnmrator = 2 * a;
+	var sol1 = (-b + root)/dnmrator;
+	var sol2 = (-b - root)/dnmrator;
+	alert("The first root is " + sol1);
+   	alert("The second root is " + sol2);
+	 
+
+//Task4
+	alert("Task4");
+	let M = prompt("Enter the First Number (M) :");
+	let N = prompt("Enter the Second Number (N) :");
+	var sum= Number(String(M).slice(-1)) + Number(String(N).slice(-1));
+	alert("Here is the sum of last digit in M and N = " + sum );
+
+//Task5
+	alert("Task5 " + "The Cars");
+	let space = prompt("Enter how many Km is CarY away from CarX: ");
+	alert("CarY takes>> " +(space/0.5)+ " Minutes to take " + space + " In relation to CarX under the same Circumstances");
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

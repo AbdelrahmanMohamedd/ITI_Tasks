@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js.js"></script>
+</head>
+<body>
+    <div class="Container">
+        <div  class="MyDiv" id="DivID" name="ItsDiv">
+            <h3>Abdelrahman</h3>
+        </div>
+    </div>
+    <div>
+        <img src="Jet1.jfif"  height="300px" onmouseover="ChangePic(this)" onmouseleave="RestoreImg(this)">
+        <img src="Jet2.jfif"  height="300px" onmouseover="ChangePic(this)" onmouseleave="RestoreImg(this)">
+        <img src="jet3.jpg"   height="300px" onmouseover="ChangePic(this)" onmouseleave="RestoreImg(this)">
+    </div>
+    <br><br>
+    <div id="BTN">
+        <input type="button" value="Click me " onclick="BtnClicked()">
+    </div>
+
+
+
+    <div id="area" style="font-weight: bold; margin-left: 100px;">
+        <br><br>
+        <form id="myForm">
+            <lable>Full name</lable><br>
+                <input type="text" onfocus="TxTinptfocusEvnt(this)" onblur="TxTinptBlurEvnt(this)"><br>
+            <lable>Email</lable><br>
+                <input type="text" onfocus="TxTinptfocusEvnt(this)" onblur="TxTinptBlurEvnt(this)"><br>
+            <lable>City</lable><br>
+                <input type="text" onfocus="TxTinptfocusEvnt(this)" onblur="TxTinptBlurEvnt(this)"><br>
+            <lable>PassWord</lable><br>
+                <input type="text" onfocus="TxTinptfocusEvnt(this)" onblur="TxTinptBlurEvnt(this)"><br>
+            <lable>I accept the terms and condition</lable> 
+                <input type="checkbox" ><br><br>
+            <input type="button" value="Register"  onclick="DisplayData() ">
+        </form>
+        <br><br><br>
+    </div>
+    <div style="text-align: center;">
+        <img id="SlideShow" src="Mosalah.jfif"  height="300px" ><br>
+        <input style="margin: 20px;" type="button" value="Next Image"      onclick="NextImg()">
+        <input style="margin: 20px;" type="button" value="Prevoius Image"  onclick="PrevImg()">
+        <input style="margin: 20px;" type="button" value="Show All Images" onclick="AllImg()">
+        <input style="margin: 20px;" type="button" value="Stop SlideShow"  onclick="StopImg()">
+    </div><br><br><br><br>
+
+</body>
+</html>
