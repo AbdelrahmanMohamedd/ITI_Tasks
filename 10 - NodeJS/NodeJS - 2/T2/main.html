@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Main</title>
+</head>
+<body style="background-color: rgb(10, 66, 46);">
+    <div style="margin:100px; ">
+        <form action="welcome.html" method="post">
+            <table style="border-style: dashed; padding:20px ; color:white ; border-color:red; border-width: 5px">
+                <tr>
+                    <th><label>Name:</label></th>
+                    <th><input type="text" placeholder="Your Name..."   name="Name" required></th>
+                </tr>
+                <tr>
+                    <th><label>Mobile:</label></th>
+                    <th><input type="text" placeholder="Your Mobile..." name="Mobile"  pattern = "[0-9]{11,}"   required></th>  
+                </tr>
+                <tr>
+                    <th><label>Adress:</label></th>
+                    <th><input type="text" placeholder="Your Adress..." name="Address"  required > </th>
+                </tr>
+                <tr>
+                    <th><label>Email:</label></th>
+                    <th><input type="text" placeholder="Your Email..."  name="Email" pattern = "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"  required></th>  
+                </tr>
+                <tr>
+                    <th><input type="submit" value="Submit" class="button" ></th>
+                </tr>
+            </table> 
+        </form>
+    </div>    
+</body>
+</html>
