@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="VideoControls.css">
+    <title>Video Controls</title>
+</head>
+<body style="text-align:center; height: 700px;">  
+    
+    <div>    <!-- Video -->
+        <video  height="350" width="500"  id="myVid"    poster="frozen.jpg" >
+            <source src="frozen.mp4" >
+        </video>
+        <br>                                <!-- video line  + time --> 
+        <input type="range" value=""  min="" max="" step=""  style="width:400px" id="vidTimeLine"> 
+        <label  id="VcurrTime" >0:0</label>        <label> / </label>      <label  id="VtotalTime" >0:0</label>
+    </div>
+    <br> 
+    <div class="myControls">    <!-- buttons + volume -->
+        <input type="button" value="Play"  id="ply" > 
+        <input type="button" value="Stop"  id="stp" > 
+        <input type="button" value="<<"    id="LL"  > 
+        <input type="button" value="<"     id="L"   > 
+        <input type="button" value=">"     id="R"   > 
+        <input type="button" value=">>"    id="RR"  > 
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        <Label>Volume: </Label><input type="range"  value="0.5" step="0.1" min="0" max="1"    id="vidVol" >      <!-- Volume -->
+        <input type="button" value="Mute" id="Mute">
+    </div>  
+    <br> 
+    <div>         
+        <Label>Speed: </Label><input type="range" value="1" step="0.1" min="0.1" max="2" style="width:200px" id="vidSpeed" >     <!-- speed -->
+    </div>  
+
+
+    <div  style="margin-top:150px;">
+        <a href="TextColorRange.html" > TextColorRange</a>
+    </div>
+
+
+
+
+
+
+    
+
+
+    <script  src="VideoControls.js" ></script>
+</body>
+</html>

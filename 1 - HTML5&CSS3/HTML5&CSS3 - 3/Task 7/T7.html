@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T7</title>
+</head>
+<style>
+    #text1:valid~#line1{
+        visibility: hidden;
+    }
+
+    #text2:valid~#line2{
+        visibility: hidden;
+    }
+</style>
+<body>
+    <h1>Change Email Address</h1> 
+    <form action="">
+        <input  id="text1"  type="text" required pattern="[A-Za-z]{5-20}" placeholder="UserName">
+        <p id="line1" >this required username may only be a set of alphabetical characters</p>
+        <input type="email"  name="" id="text2" required placeholder="Email">
+        <p id="line2" >The required email address may not include any special characters other than @ sign</p>
+        <input  id="" type="button" value="Change">
+    </form>
+</body>
+</html>
