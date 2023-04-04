@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"> <!-- Set character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Set the viewport -->
+    <title>Service Worker Example</title><!-- Set title -->
+    <link href="styles/index.css" rel="stylesheet"><!-- Add stylesheet -->
+    <link href="manifest/manifest.webmanifest" rel="manifest">  <!--manifest file link-->
+  </head>
+  <body> 
+    <h1>Service Worker Example</h1>                                    <br> 
+    <lable>Want to install this app ?!</lable>
+    <input type="button"  value="INSTALL APP"  id="InstallBtn" >   <br><br><br>  
+    <a href="other.html">Other page</a>                            <br><br><br> 
+    <a href="below/another.html">Another page</a>                      <br>
+
+
+
+    <script>// Script to register the service worker goes here
+    if('serviceWorker' in navigator){
+      window.addEventListener('load',()=>{
+        navigator.serviceWorker.register('service-worker.js')
+        .then(reg=>{ 
+          console.log('service worker registered' ,reg)
+        }).catch(err=>{
+          console.log(err)
+        })
+      })
+    }
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
